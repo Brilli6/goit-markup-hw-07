@@ -1,0 +1,39 @@
+.clients {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  box-sizing: border-box;
+  align-content: center;
+  justify-content: space-between;
+  text-align: center;
+  gap: 30px;
+  margin: 0 auto;
+  padding-inline-start: 0;
+  margin-block-start: 0;
+  margin-block-end: 0;
+}
+.clients__item {
+  flex-basis: calc((100% - 150px) / 6);
+  align-items: center;
+  margin: 0 auto;
+}
+
+.clients__icon {
+  fill: #afb1b8;
+  border-radius: 4%;
+  border: 1px #afb1b8 solid;
+}
+.clients__icon:hover {
+  fill: #2196f3;
+  border-color: #2196f3;
+  transition: fill;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+.clients__con:focus {
+  fill: #2196f3;
+  border-color: #2196f3;
+  transition: fill;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}

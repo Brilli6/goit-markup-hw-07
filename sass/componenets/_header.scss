@@ -1,0 +1,196 @@
+.header__container {
+  width: 100%;
+  max-width: 1200px;
+  box-sizing: border-box;
+  padding: 0 15px;
+  margin: 0 auto;
+  justify-content: flex-start;
+  display: flex;
+  flex-direction: row;
+}
+.header {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  border-bottom: #ececec 1px;
+}
+.nav__list {
+  display: flex;
+  flex-direction: row;
+  box-sizing: content-box;
+  justify-content: space-between;
+  max-width: 254px;
+  gap: 46px;
+  margin-left: 93px;
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-top: 32px;
+  padding-bottom: 32px;
+  padding-inline-start: 0;
+}
+.nav-stuff:hover {
+  color: #2196f3;
+  transition: color;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.nav__link.agencja-decoration::after {
+  position: absolute;
+  content: " ";
+  height: 4px;
+  background-color: #2196f3;
+  width: 100%;
+  border-radius: 2px;
+  bottom: -33px;
+  left: 0px;
+}
+.nav__link.portfolio-decoration::after {
+  position: absolute;
+  content: " ";
+  height: 4px;
+  background-color: #2196f3;
+  width: 100%;
+  border-radius: 2px;
+  bottom: -33px;
+  left: 0px;
+}
+.header__menu-logo {
+  display: flex;
+  flex-direction: row;
+  box-sizing: content-box;
+  justify-content: space-between;
+  margin-block-start: 0;
+  margin-block-end: 0;
+}
+.nav-stuff {
+  padding-inline-start: 0;
+}
+
+.header__contacts {
+  display: flex;
+  flex-direction: row;
+  box-sizing: content-box;
+  justify-content: space-between;
+  text-align: center;
+}
+.header__contacts-list {
+  display: flex;
+  flex-direction: row;
+  box-sizing: content-box;
+  justify-content: space-between;
+  gap: 50px;
+  margin-left: 295px;
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-top: 32px;
+  padding-bottom: 32px;
+}
+.header__contact-icon {
+  padding-right: 10px;
+  padding-inline-start: 0;
+  margin-top: 0;
+  align-items: center;
+  justify-items: center;
+  fill: currentColor;
+}
+.header__contact-icon:hover {
+  fill: currentColor;
+  transition: fill;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+.header__contact-icon:focus {
+  fill: currentColor;
+  transition: fill;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.mail::before {
+  color: var(--contacts-color);
+}
+.mail::before:hover {
+  fill: #2196f3;
+  cursor: pointer;
+  transition: fill;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+.phone::before {
+  color: var(--contacts-color);
+  cursor: pointer;
+}
+.phone::before:hover {
+  fill: #2196f3;
+  cursor: pointer;
+  transition: fill;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+.header__logo-top:hover {
+  color: #2196f3;
+  transition: color;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+.Header__logo-top:focus {
+  color: #2196f3;
+  transition: color;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+a.nav__link {
+  text-decoration: none;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  color: #212121;
+  position: relative;
+  transition: color;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4 0 0.2 1);
+}
+.nav :hover {
+  color: #2196f3;
+  transition: color;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+.nav :focus {
+  color: #2196f3;
+  transition: color;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+.nav :active {
+  color: #2196f3;
+  transition: color;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+.header__menu-logo > a {
+  font-family: "Raleway", sans-serif;
+  color: #212121;
+  font-weight: 700;
+  font-size: 26px;
+  text-decoration: none;
+}
+.header__logo-top > .blue {
+  color: #2196f3;
+}
+
+.header__contact-link {
+  text-decoration: none;
+  color: #757575;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 1.17;
+}
+.header__contact-link:hover {
+  color: #2196f3;
+  transition: color;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}

@@ -1,0 +1,63 @@
+.main-box {
+  display: flex;
+  flex-direction: row;
+  background-color: var(--main-color);
+  font-family: inherit;
+  box-sizing: border-box;
+  width: 100%;
+  max-width: 1600px;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin: 0 auto;
+  padding: 200px 0;
+  background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),
+    url("../images/mainboxpic.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.main-box__title {
+  font-size: 44px;
+  color: white;
+  line-height: 1.36;
+  letter-spacing: 0.06em;
+  max-width: 696px;
+  text-align: center;
+  margin: 0 auto;
+  padding-bottom: 30px;
+  margin: 0 auto;
+}
+.main-box__button {
+  background-color: #2196f3;
+  font-weight: 700;
+  color: white;
+  cursor: pointer;
+  padding: 10px 42px 10px 41px;
+  border-radius: 4px;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  font-family: inherit;
+  font-size: 16px;
+  font-weight: 700;
+  color: white;
+  line-height: 1.88;
+  letter-spacing: 0.06em;
+  border: none;
+  display: block;
+  text-decoration: none;
+}
+.main-box__button-title {
+  font-family: inherit;
+  text-decoration: none;
+  font-family: inherit;
+  font-size: 16px;
+  font-weight: 700;
+  color: white;
+  line-height: 1.88;
+  letter-spacing: 0.06em;
+}
+a.main-box__button-title {
+  text-decoration: none;
+}
