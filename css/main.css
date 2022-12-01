@@ -723,7 +723,7 @@ a.main-box__button-title {
           transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.clients__con:focus {
+.clients__icon:focus {
   fill: #2196f3;
   border-color: #2196f3;
   -webkit-transition: fill;
